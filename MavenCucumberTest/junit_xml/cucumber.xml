@@ -1,58 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="109.132011">
-<testcase classname="TestCucumber test FreeCRM Contacts page" name=": FreeCRM Test Contacts Page" time="29.323238">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.419622">
+<testcase classname="TestCucumber FreeCRM DealsTest test" name="Deals FreeCRM Test" time="31.419622">
 <system-out><![CDATA[Given Launch the browser and hit the URL....................................passed
 When title of login page is Free CRM........................................passed
 Then user clicks on login button in Home page...............................passed
-Then User enters "deepdeepzpatil@gmail.com" and "Ayush@143fuck".............passed
+Then User enters username and password......................................passed
 Then user clicks on login button............................................passed
-Then User is on HomePage....................................................passed
-Then user moves to contatcs page............................................passed
-Then user click on new button...............................................passed
-Then User enters contacts detials "Kingkong" and "king" and "hello@mail.com" and "erisson".passed
-Then User click on save button..............................................passed
-Then browser close..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="TestCucumber test FreeCRM Contacts page" name=": FreeCRM Test Contacts Page 2" time="27.238078">
-<system-out><![CDATA[Given Launch the browser and hit the URL....................................passed
-When title of login page is Free CRM........................................passed
-Then user clicks on login button in Home page...............................passed
-Then User enters "deepdeepzpatil@gmail.com" and "Ayush@143fuck".............passed
-Then user clicks on login button............................................passed
-Then User is on HomePage....................................................passed
-Then user moves to contatcs page............................................passed
-Then user click on new button...............................................passed
-Then User enters contacts detials "harish" and "patil" and "Harish@mail.com" and "Oracle".passed
-Then User click on save button..............................................passed
-Then browser close..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="TestCucumber test FreeCRM Contacts page" name=": FreeCRM Test Contacts Page 3" time="26.20135">
-<system-out><![CDATA[Given Launch the browser and hit the URL....................................passed
-When title of login page is Free CRM........................................passed
-Then user clicks on login button in Home page...............................passed
-Then User enters "deepdeepzpatil@gmail.com" and "Ayush@143fuck".............passed
-Then user clicks on login button............................................passed
-Then User is on HomePage....................................................passed
-Then user moves to contatcs page............................................passed
-Then user click on new button...............................................passed
-Then User enters contacts detials "Sunilkumar" and "jadhkar" and "Sunilkumar@mail.com" and "Portqii".passed
-Then User click on save button..............................................passed
-Then browser close..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="TestCucumber test FreeCRM Contacts page" name=": FreeCRM Test Contacts Page 4" time="26.369345">
-<system-out><![CDATA[Given Launch the browser and hit the URL....................................passed
-When title of login page is Free CRM........................................passed
-Then user clicks on login button in Home page...............................passed
-Then User enters "deepdeepzpatil@gmail.com" and "Ayush@143fuck".............passed
-Then user clicks on login button............................................passed
-Then User is on HomePage....................................................passed
-Then user moves to contatcs page............................................passed
-Then user click on new button...............................................passed
-Then User enters contacts detials "Sharankumar" and "k" and "Sharank@mail.com" and "netwokring".passed
-Then User click on save button..............................................passed
-Then browser close..........................................................passed
+Then User is on HomePages...................................................passed
+Then User Clicks on Deals button............................................passed
+Then User Click on New button...............................................passed
+Then User Enters deals details..............................................passed
+Then User clicks on Save button.............................................passed
+Then Browser close..........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

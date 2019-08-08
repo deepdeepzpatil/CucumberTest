@@ -31,5 +31,6 @@
 	<classpathentry kind="lib" path="C:/Users/deepz_patil/Desktop/SeleniumJars/Cucumber Jars/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/deepz_patil/Desktop/SeleniumJars/Cucumber Jars/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="lib" path="C:/Users/deepz_patil/Downloads/testng-6.7.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

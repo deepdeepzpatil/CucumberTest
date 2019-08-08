@@ -3,730 +3,172 @@
     "line": 1,
     "elements": [
       {
-        "line": 31,
-        "name": ": FreeCRM Test Contacts Page",
+        "line": 3,
+        "name": "Deals FreeCRM Test",
         "description": "",
-        "id": "testcucumber-test-freecrm-contacts-page;:-freecrm-test-contacts-page;;2",
+        "id": "testcucumber-freecrm-dealstest-test;deals-freecrm-test",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9639306800,
+              "duration": 11490086900,
               "status": "passed"
             },
             "line": 5,
             "name": "Launch the browser and hit the URL",
             "match": {
-              "location": "ContactsPageTest.open_the_chrome_browser_and_Launch_Application()"
+              "location": "DealsPageTest.open_the_chrome_browser_and_Launch_Application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 212529600,
+              "duration": 20271800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "title of login page is Free CRM",
             "match": {
-              "location": "ContactsPageTest.Get_the_title_of_pagee()"
+              "location": "DealsPageTest.Get_the_title_of_pagee()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6247306000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on login button in Home page",
-            "match": {
-              "location": "ContactsPageTest.Click_on_LoginButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 476879800,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User enters \"deepdeepzpatil@gmail.com\" and \"Ayush@143fuck\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "deepdeepzpatil@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Ayush@143fuck",
-                  "offset": 44
-                }
-              ],
-              "location": "ContactsPageTest.Login_the_crm_Application(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 138643900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "ContactsPageTest.click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 14048900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on HomePage",
-            "match": {
-              "location": "ContactsPageTest.Varify_landed_on_main_crm_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3348522400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user moves to contatcs page",
-            "match": {
-              "location": "ContactsPageTest.User_moves_to_conatcts_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1653987800,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user click on new button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_New_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1990183500,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters contacts detials \"Kingkong\" and \"king\" and \"hello@mail.com\" and \"erisson\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Kingkong",
-                  "offset": 30
-                },
-                {
-                  "val": "king",
-                  "offset": 45
-                },
-                {
-                  "val": "hello@mail.com",
-                  "offset": 56
-                },
-                {
-                  "val": "erisson",
-                  "offset": 77
-                }
-              ],
-              "location": "ContactsPageTest.user_Enters_Conatcts_details(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5471088300,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User click on save button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_Save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 130741500,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "browser close",
-            "match": {
-              "location": "ContactsPageTest.Close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 32,
-        "name": ": FreeCRM Test Contacts Page",
-        "description": "",
-        "id": "testcucumber-test-freecrm-contacts-page;:-freecrm-test-contacts-page;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7468005100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch the browser and hit the URL",
-            "match": {
-              "location": "ContactsPageTest.open_the_chrome_browser_and_Launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 376022200,
+              "duration": 7081081000,
               "status": "passed"
             },
             "line": 7,
-            "name": "title of login page is Free CRM",
-            "match": {
-              "location": "ContactsPageTest.Get_the_title_of_pagee()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7284128800,
-              "status": "passed"
-            },
-            "line": 9,
             "name": "user clicks on login button in Home page",
             "match": {
-              "location": "ContactsPageTest.Click_on_LoginButton()"
+              "location": "DealsPageTest.Click_on_LoginButton()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 426209100,
+              "duration": 467122500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username and password",
+            "match": {
+              "location": "DealsPageTest.Login_the_crm_Application(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "deepdeepzpatil@gmail.com",
+                  "Ayush@143fuck"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97703400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DealsPageTest.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12373200,
               "status": "passed"
             },
             "line": 11,
-            "name": "User enters \"deepdeepzpatil@gmail.com\" and \"Ayush@143fuck\"",
+            "name": "User is on HomePages",
             "match": {
-              "arguments": [
-                {
-                  "val": "deepdeepzpatil@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Ayush@143fuck",
-                  "offset": 44
-                }
-              ],
-              "location": "ContactsPageTest.Login_the_crm_Application(String,String)"
+              "location": "DealsPageTest.Varify_landed_on_main_crm_page()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 85415100,
+              "duration": 5264677800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Clicks on Deals button",
+            "match": {
+              "location": "DealsPageTest.Yser_clicks_on_deals_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 464164600,
               "status": "passed"
             },
             "line": 13,
-            "name": "user clicks on login button",
+            "name": "User Click on New button",
             "match": {
-              "location": "ContactsPageTest.click_on_login_button()"
+              "location": "DealsPageTest.User_Click_on_New_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8914100,
+              "duration": 1177103700,
               "status": "passed"
             },
-            "line": 15,
-            "name": "User is on HomePage",
+            "line": 14,
+            "name": "User Enters deals details",
             "match": {
-              "location": "ContactsPageTest.Varify_landed_on_main_crm_page()"
+              "location": "DealsPageTest.User_eneters_deals_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DeepakPatil",
+                  "1234567",
+                  "100",
+                  "adjkkasdhkajs"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5094060100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "DealsPageTest.user_clicks_on_Save_Button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3130005400,
+              "duration": 250977200,
               "status": "passed"
             },
             "line": 17,
-            "name": "user moves to contatcs page",
+            "name": "Browser close",
             "match": {
-              "location": "ContactsPageTest.User_moves_to_conatcts_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1258615100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user click on new button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_New_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1792716900,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters contacts detials \"harish\" and \"patil\" and \"Harish@mail.com\" and \"Oracle\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "harish",
-                  "offset": 30
-                },
-                {
-                  "val": "patil",
-                  "offset": 43
-                },
-                {
-                  "val": "Harish@mail.com",
-                  "offset": 55
-                },
-                {
-                  "val": "Oracle",
-                  "offset": 77
-                }
-              ],
-              "location": "ContactsPageTest.user_Enters_Conatcts_details(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5272766800,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User click on save button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_Save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 135279400,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "browser close",
-            "match": {
-              "location": "ContactsPageTest.Close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": ": FreeCRM Test Contacts Page",
-        "description": "",
-        "id": "testcucumber-test-freecrm-contacts-page;:-freecrm-test-contacts-page;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6635234200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch the browser and hit the URL",
-            "match": {
-              "location": "ContactsPageTest.open_the_chrome_browser_and_Launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 449430800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "title of login page is Free CRM",
-            "match": {
-              "location": "ContactsPageTest.Get_the_title_of_pagee()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6427224600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on login button in Home page",
-            "match": {
-              "location": "ContactsPageTest.Click_on_LoginButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 471702400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User enters \"deepdeepzpatil@gmail.com\" and \"Ayush@143fuck\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "deepdeepzpatil@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Ayush@143fuck",
-                  "offset": 44
-                }
-              ],
-              "location": "ContactsPageTest.Login_the_crm_Application(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 81437800,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "ContactsPageTest.click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9680800,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on HomePage",
-            "match": {
-              "location": "ContactsPageTest.Varify_landed_on_main_crm_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3069124700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user moves to contatcs page",
-            "match": {
-              "location": "ContactsPageTest.User_moves_to_conatcts_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1585019200,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user click on new button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_New_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2024728200,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters contacts detials \"Sunilkumar\" and \"jadhkar\" and \"Sunilkumar@mail.com\" and \"Portqii\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Sunilkumar",
-                  "offset": 30
-                },
-                {
-                  "val": "jadhkar",
-                  "offset": 47
-                },
-                {
-                  "val": "Sunilkumar@mail.com",
-                  "offset": 61
-                },
-                {
-                  "val": "Portqii",
-                  "offset": 87
-                }
-              ],
-              "location": "ContactsPageTest.user_Enters_Conatcts_details(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5285107100,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User click on save button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_Save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 162660000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "browser close",
-            "match": {
-              "location": "ContactsPageTest.Close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 34,
-        "name": ": FreeCRM Test Contacts Page",
-        "description": "",
-        "id": "testcucumber-test-freecrm-contacts-page;:-freecrm-test-contacts-page;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6309509300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Launch the browser and hit the URL",
-            "match": {
-              "location": "ContactsPageTest.open_the_chrome_browser_and_Launch_Application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 459691500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "title of login page is Free CRM",
-            "match": {
-              "location": "ContactsPageTest.Get_the_title_of_pagee()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6938626300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on login button in Home page",
-            "match": {
-              "location": "ContactsPageTest.Click_on_LoginButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 405935800,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User enters \"deepdeepzpatil@gmail.com\" and \"Ayush@143fuck\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "deepdeepzpatil@gmail.com",
-                  "offset": 13
-                },
-                {
-                  "val": "Ayush@143fuck",
-                  "offset": 44
-                }
-              ],
-              "location": "ContactsPageTest.Login_the_crm_Application(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 93617700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "ContactsPageTest.click_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10174100,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on HomePage",
-            "match": {
-              "location": "ContactsPageTest.Varify_landed_on_main_crm_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3406013700,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user moves to contatcs page",
-            "match": {
-              "location": "ContactsPageTest.User_moves_to_conatcts_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1546241100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user click on new button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_New_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1764955500,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters contacts detials \"Sharankumar\" and \"k\" and \"Sharank@mail.com\" and \"netwokring\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Sharankumar",
-                  "offset": 30
-                },
-                {
-                  "val": "k",
-                  "offset": 48
-                },
-                {
-                  "val": "Sharank@mail.com",
-                  "offset": 56
-                },
-                {
-                  "val": "netwokring",
-                  "offset": 79
-                }
-              ],
-              "location": "ContactsPageTest.user_Enters_Conatcts_details(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5268750900,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User click on save button",
-            "match": {
-              "location": "ContactsPageTest.user_click_on_Save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 165829100,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "browser close",
-            "match": {
-              "location": "ContactsPageTest.Close_the_browser()"
+              "location": "DealsPageTest.close_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "TestCucumber test FreeCRM Contacts page",
+    "name": "TestCucumber FreeCRM DealsTest test",
     "description": "",
-    "id": "testcucumber-test-freecrm-contacts-page",
+    "id": "testcucumber-freecrm-dealstest-test",
     "keyword": "Feature",
-    "uri": "D:/SeleniumTests/MavenCucumberTest/feature/contacts.feature"
+    "uri": "C:/Users/deepz_patil/git/CucumberTest/MavenCucumberTest/feature/deals.feature"
   }
 ]

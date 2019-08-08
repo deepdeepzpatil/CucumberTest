@@ -12,12 +12,12 @@ import cucumber.api.java.en.When;
 import util.util;
 
 public class ContactsPageTest {
-//	WebDriver driver;
-//	
+	WebDriver driver;
+	
 //	@Given("^Launch the browser and hit the URL$")
 //	public void open_the_chrome_browser_and_Launch_Application() throws Throwable {
 //		
-//        System.setProperty("WebDriver.chrome.driver", "D:\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 //		
 //        driver = new ChromeDriver();
 //		driver.manage().window().maximize();
@@ -111,6 +111,6 @@ public class ContactsPageTest {
 //		
 //		driver.close();
 //	
-//	
+//	}
 //	
 }

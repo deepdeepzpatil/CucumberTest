@@ -9,6 +9,9 @@ Then User enters username and password
 | deepdeepzpatil@gmail.com | Ayush@143fuck |
 Then user clicks on login button
 Then User is on HomePages
+Then User Clicks on Deals button
 Then User Click on New button
 Then User Enters deals details
 |DeepakPatil | 1234567 | 100 | adjkkasdhkajs |
+Then User clicks on Save button
+Then Browser close
