@@ -1,72 +1,88 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/deepz_patil/git/CucumberTest/MavenCucumberTest/feature/deals.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/deepz_patil/git/CucumberTest/MavenCucumberTest/feature/dealsmap.feature");
 formatter.feature({
   "line": 1,
-  "name": "TestCucumber FreeCRM DealsTest test",
+  "name": "Deal data creation",
   "description": "",
-  "id": "testcucumber-freecrm-dealstest-test",
+  "id": "deal-data-creation",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
+  "line": 4,
   "name": "Deals FreeCRM Test",
   "description": "",
-  "id": "testcucumber-freecrm-dealstest-test;deals-freecrm-test",
+  "id": "deal-data-creation;deals-freecrm-test",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "Launch the browser and hit the URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "title of login page is Free CRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "user clicks on login button in Home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "User enters username and password",
   "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 10
+    },
     {
       "cells": [
         "deepdeepzpatil@gmail.com",
         "Ayush@143fuck"
       ],
-      "line": 9
+      "line": 11
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 12,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
+  "line": 13,
   "name": "User is on HomePages",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 12,
+  "line": 14,
   "name": "User Clicks on Deals button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 13,
+  "line": 15,
   "name": "User Click on New button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 14,
+  "line": 16,
   "name": "User Enters deals details",
   "rows": [
+    {
+      "cells": [
+        "Title",
+        "Probability",
+        "amount",
+        "description"
+      ],
+      "line": 17
+    },
     {
       "cells": [
         "DeepakPatil",
@@ -74,96 +90,111 @@ formatter.step({
         "100",
         "adjkkasdhkajs"
       ],
-      "line": 15
+      "line": 18
+    },
+    {
+      "cells": [
+        "Test Deal1",
+        "454646",
+        "656",
+        "gsfsfsfsf"
+      ],
+      "line": 19
+    },
+    {
+      "cells": [
+        "Test Deal2",
+        "543535",
+        "765",
+        "hfgjdjjetwre"
+      ],
+      "line": 20
+    },
+    {
+      "cells": [
+        "Test Deal3",
+        "57765",
+        "4535",
+        "zvbbbv"
+      ],
+      "line": 21
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 16,
-  "name": "User clicks on Save button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
+  "line": 23,
   "name": "Browser close",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DealsPageTest.open_the_chrome_browser_and_Launch_Application()"
+  "location": "DealStepwithmapdefination.open_the_chrome_browser_and_Launch_Application()"
 });
 formatter.result({
-  "duration": 11490086900,
+  "duration": 10683275000,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.Get_the_title_of_pagee()"
+  "location": "DealStepwithmapdefination.Get_the_title_of_pagee()"
 });
 formatter.result({
-  "duration": 20271800,
+  "duration": 16093400,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.Click_on_LoginButton()"
+  "location": "DealStepwithmapdefination.Click_on_LoginButton()"
 });
 formatter.result({
-  "duration": 7081081000,
+  "duration": 6030598900,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.Login_the_crm_Application(DataTable)"
+  "location": "DealStepwithmapdefination.Login_the_crm_Application(DataTable)"
 });
 formatter.result({
-  "duration": 467122500,
+  "duration": 451344400,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.click_on_login_button()"
+  "location": "DealStepwithmapdefination.click_on_login_button()"
 });
 formatter.result({
-  "duration": 97703400,
+  "duration": 101912400,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.Varify_landed_on_main_crm_page()"
+  "location": "DealStepwithmapdefination.Varify_landed_on_main_crm_page()"
 });
 formatter.result({
-  "duration": 12373200,
+  "duration": 16361900,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.Yser_clicks_on_deals_button()"
+  "location": "DealStepwithmapdefination.Yser_clicks_on_deals_button()"
 });
 formatter.result({
-  "duration": 5264677800,
+  "duration": 5202195000,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.User_Click_on_New_button()"
+  "location": "DealStepwithmapdefination.User_Click_on_New_button()"
 });
 formatter.result({
-  "duration": 464164600,
+  "duration": 387114600,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.User_eneters_deals_details(DataTable)"
+  "location": "DealStepwithmapdefination.User_eneters_deals_details(DataTable)"
 });
 formatter.result({
-  "duration": 1177103700,
+  "duration": 64867921800,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsPageTest.user_clicks_on_Save_Button()"
+  "location": "DealStepwithmapdefination.close_the_browser()"
 });
 formatter.result({
-  "duration": 5094060100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealsPageTest.close_the_browser()"
-});
-formatter.result({
-  "duration": 250977200,
+  "duration": 209998700,
   "status": "passed"
 });
 });
