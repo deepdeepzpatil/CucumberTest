@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.227901">
-<testcase classname="Test Tagged Hooks" name="This is First test" time="0.216701">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Test Tagged Hooks" name="This is Second test" time="0.009378">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Test Tagged Hooks" name="This is Third test" time="0.001822">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.661442">
+<testcase classname="Free CRM Application Test1" name="Validate Free CRM Home page Test1" time="12.661442">
+<system-out><![CDATA[Given user is opens broswera................................................passed
+Then User validates Homepagea...............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
